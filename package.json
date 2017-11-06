@@ -1,0 +1,27 @@
+{
+  "name": "randommusic",
+  "version": "1.0.0",
+  "description": "a random music player using node, child processes, and afplay",
+  "main": "index.js",
+  "scripts": {
+		"download": "run(){ node index.js -d $format $url}",
+		"stream": "run(){ node index.js -s $url }",
+    "test": "node index.js"
+  },
+  "author": "Saul Garza",
+  "license": "ISC",
+  "dependencies": {
+    "audio-generator": "^2.1.2",
+    "audio-speaker": "^1.5.0",
+    "chalk": "^2.3.0",
+    "copy-paste": "^1.3.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "keypress": "^0.2.1",
+    "lame": "^1.2.4",
+    "nodemon": "^1.12.1",
+    "soundcloud": "^3.2.2",
+    "speaker": "^0.4.0",
+    "spotify-web-api-node": "^2.5.0",
+    "ytdl-core": "^0.18.1"
+  }
+}
